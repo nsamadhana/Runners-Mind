@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Layout from '../components/Layout'
+import { firebase} from '../utils/firebase.js';
 
 export default function App({ Component, pageProps }) {
   return(
