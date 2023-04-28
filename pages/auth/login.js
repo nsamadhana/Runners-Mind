@@ -9,7 +9,7 @@ export default function Login() {
         try {
             const result = await signInWithPopup(auth,googleProvider)
         } catch (error) {
-
+            console.log("Error while attempting to authenticate");
         }
 
     }
